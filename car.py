@@ -4,7 +4,7 @@ pygame.init()
 size = width, height = 600, 95
 screen = pygame.display.set_mode(size)
 
-car_image = pygame.image.load('data/car2.png').convert_alpha()
+car_image = pygame.image.load('data/car2.png')
 
 
 class Car(pygame.sprite.Sprite):
